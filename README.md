@@ -1,98 +1,40 @@
-# Conversor de Moedas
+# Projeto - Dashboard
 
-Este projeto é um dashboard que mostra a conversão de moedas (dólar e iene) para reais em tempo real. Foi criado usando HTML, CSS e JavaScript, e aborda diversos tópicos interessantes, como Fetch API, Threads, Concorrência, Paralelismo, Event Loop, Task Queue e WebWorkers.
+O projeto Dashboard é uma aplicação desenvolvida para fornecer uma plataforma de conversão de moedas em tempo real. A aplicação pode ser acessada através do link [https://dashboard-bytebank.vercel.app/](https://dashboard-bytebank.vercel.app/).
 
-## Tecnologias utilizadas
-
+### Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript
 
 ## Funcionalidades
 
-- Conversão de moedas em tempo real
-- Atualização automática dos valores de conversão
-- Gráficos de desempenho do conversor
+O Dashboard possui as seguintes funcionalidades:
 
-## Como executar o projeto
+### 1. Conversão de Moedas em Tempo Real
 
-## Introdução ao Create React App
+A aplicação permite que os usuários convertam valores entre diferentes moedas. Os usuários podem selecionar a moeda de origem e a moeda de destino, inserir o valor a ser convertido e visualizar o resultado da conversão em tempo real.
 
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+### 2. Atualização Automática dos Valores de Conversão
 
-## Scripts Disponíveis
+Os valores de conversão são atualizados automaticamente com base nas taxas de câmbio mais recentes. Isso garante que os usuários tenham informações precisas e atualizadas durante suas conversões de moeda.
 
-No diretório do projeto, você pode executar:
+### 3. Gráficos de Desempenho do Conversor
 
-### `npm start`
-Executa o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+A aplicação exibe gráficos que mostram o desempenho do conversor de moeda ao longo do tempo. Esses gráficos permitem aos usuários visualizar e analisar as flutuações das taxas de câmbio e tomar decisões informadas sobre suas conversões.
 
-A página será recarregada quando você fizer alterações.
-Você também pode ver erros de lint no console.
+## Como Executar o Projeto Localmente
 
-### `npm test`
+Para executar o projeto localmente, siga as etapas abaixo:
 
-Inicia o executor de teste no modo de observação interativo.
-Consulte a seção sobre como [executar testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
+1. Faça o clone deste repositório em sua máquina local ou baixe o código-fonte do projeto.
 
-### `npm run build`
+2. Navegue até o diretório raiz do projeto.
 
-Cria o aplicativo para produção na `build` pasta.\
-Ele empacota corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
+3. Abra o arquivo `index.html` em um navegador web moderno.
 
-A compilação é minificada e os nomes dos arquivos incluem os hashes.
-Seu aplicativo está pronto para ser implantado!
+4. A aplicação será executada localmente em seu navegador, permitindo que você explore o Dashboard ByteBank.
 
-Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
+## Contribuição
 
-### `npm run eject`
-
-**Nota: esta é uma operação unidirecional. Uma vez que você `eject`, você não pode voltar atrás!**
-
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá fazê-lo `eject` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject` , ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
-
-Você não precisa nunca usar `eject`. O conjunto de recursos selecionados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que esta ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para ela.
-
-## Saber Mais
-
-Você pode aprender mais na [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-Para aprender React, confira a [React documentation](https://reactjs.org/).
-
-### Divisão de código
-
-Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analisando o tamanho do pacote
-
-Esta seção foi movida para cá: : [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Fazendo um Progressive Web App
-
-Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Configuração avançada
-
-Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Implantação
-
-Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` falha em minificar
-
-Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Contribuindo
-
-Se você quiser contribuir com este projeto, siga estas etapas:
-
-1. Faça um fork deste repositório.
-2. Crie um branch para suas alterações: `git checkout -b minha-nova-funcionalidade`
-3. Faça suas alterações e confirme-as: `git commit -m 'Adicionar nova funcionalidade'`
-4. Envie para o branch original: `git push origin minha-nova-funcionalidade`
-5. Crie uma solicitação de pull.
+Contribuições para a melhoria deste projeto são bem-vindas. Se você tiver sugestões, correções de bugs ou novas ideias, fique à vontade para enviar pull requests ou abrir issues neste repositório.
